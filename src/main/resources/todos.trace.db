@@ -1,0 +1,12 @@
+2023-03-11 17:22:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TODOLIST" not found (this database is empty); SQL statement:
+select * from TODOLIST [42104-214]
+2023-03-11 17:24:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOK" not found; SQL statement:
+delete from book where id=? [42102-214]
+2023-03-11 17:24:47 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOK" not found; SQL statement:
+delete from book where id=? [42102-214]
+2023-03-11 17:30:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TODOLIST" not found (this database is empty); SQL statement:
+select * from TODOLIST [42104-214]
